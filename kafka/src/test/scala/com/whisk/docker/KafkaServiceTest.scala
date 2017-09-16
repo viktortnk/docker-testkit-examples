@@ -2,6 +2,7 @@ package com.whisk.docker
 
 import java.util.{Collections, Properties}
 
+import com.whisk.docker.testkit.ContainerState
 import org.apache.kafka.clients.admin.{AdminClient, NewTopic}
 import org.apache.kafka.clients.producer.{KafkaProducer, Producer, ProducerRecord, RecordMetadata}
 import org.scalatest.FunSuite

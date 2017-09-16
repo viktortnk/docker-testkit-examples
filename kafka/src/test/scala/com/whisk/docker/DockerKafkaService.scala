@@ -1,6 +1,8 @@
 package com.whisk.docker
 
 import com.spotify.docker.client.messages.PortBinding
+import com.whisk.docker.testkit.scalatest.DockerTestKitForAll
+import com.whisk.docker.testkit.{Container, ContainerSpec, DockerReadyChecker, ManagedContainers}
 import org.scalatest.Suite
 
 trait DockerKafkaService extends DockerTestKitForAll {
